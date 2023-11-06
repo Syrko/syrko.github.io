@@ -1,0 +1,71 @@
+.reading-assignment1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.reading-assignment1-features {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+.reading-assignment1-text {
+  font-size: 3rem;
+  margin-bottom: 32px;
+}
+.reading-assignment1-text03 {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.reading-assignment1-text04 {
+  align-self: flex-start;
+}
+.reading-assignment1-link {
+  text-decoration: underline;
+}
+.reading-assignment1-text19 {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.reading-assignment1-text20 {
+  align-self: flex-start;
+}
+.reading-assignment1-link1 {
+  text-decoration: underline;
+}
+.reading-assignment1-link2 {
+  text-decoration: underline;
+}
+@media(max-width: 991px) {
+  .reading-assignment1-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .reading-assignment1-features {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .reading-assignment1-text {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .reading-assignment1-features {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}
