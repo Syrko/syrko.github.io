@@ -676,7 +676,7 @@
   min-height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-text35 {
+.home-navlink2 {
   font-size: 16px;
   font-style: normal;
   text-align: left;
@@ -685,7 +685,7 @@
   line-height: 1.55;
   letter-spacing: 1px;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .home-container17 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -710,7 +710,7 @@
   max-width: 1400px;
   flex-direction: column;
 }
-.home-text36 {
+.home-text35 {
   font-size: 3rem;
   margin-bottom: 48px;
 }
@@ -720,7 +720,7 @@
   grid-gap: 32px;
   grid-template-columns: 1fr 1fr;
 }
-.home-text37 {
+.home-text36 {
   font-family: "Playfair Display";
 }
 .home-container20 {
