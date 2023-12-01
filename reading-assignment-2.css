@@ -19,14 +19,17 @@
   font-size: 3rem;
   margin-bottom: 32px;
 }
-.reading-assignment2-text3 {
+.reading-assignment2-text03 {
   align-self: flex-start;
   font-style: normal;
   font-weight: 400;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.reading-assignment2-text4 {
+.reading-assignment2-text04 {
   align-self: flex-start;
+}
+.reading-assignment2-link {
+  text-decoration: underline;
 }
 @media(max-width: 991px) {
   .reading-assignment2-text {
